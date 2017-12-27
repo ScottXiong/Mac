@@ -13,4 +13,6 @@ This may prompt for your password.
 ```
 ifconfig | grep "inet " | grep -v 127.0.0.1
 ```
+### 操作技巧
+- 光标移到句首`control+a`，句尾`control+e`
 
