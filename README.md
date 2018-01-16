@@ -17,4 +17,7 @@ ifconfig | grep "inet " | grep -v 127.0.0.1
 - 光标移到句首`control+a`，句尾`control+e`
 ### com+shift+.
 - mac下控制文件的显隐
-
+### mac修改主机名
+`sudo scutil --set HostName MacBookPro`
+### mac修改共享名
+`sudo scutil --set ComputerName MacBookPro`
