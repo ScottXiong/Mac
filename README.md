@@ -23,3 +23,13 @@ ifconfig | grep "inet " | grep -v 127.0.0.1
 `sudo scutil --set ComputerName MacBookPro`
 ### 设置系统变量
 [默认语法](https://www.cnblogs.com/shineqiujuan/p/4693404.html):`eg:export PATH=$PATH:/usr/local/mysql/bin`,查看系统变量`echo $PATH`
+* cat /etc/profile
+* cat /etc/paths
+* cat ~/.bash_profile
+```
+vi ~/.bash_profile
+#user root
+export PATH=${PATH}:/usr/local/mysql/bin
+export NODE_PATH=/usr/local/lib/node_modules
+
+```
