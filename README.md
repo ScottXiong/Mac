@@ -31,5 +31,6 @@ vi ~/.bash_profile
 #user root
 export PATH=${PATH}:/usr/local/mysql/bin
 export NODE_PATH=/usr/local/lib/node_modules
-
+mac 桌面和下载目录
+/Users/username/desktop(downloads)
 ```
